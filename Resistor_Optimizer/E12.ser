@@ -1,0 +1,20 @@
+;
+; Base values for E12 series
+;
+baseval
+1.0 1.2 1.5 1.8 2.2 2.7 3.3 3.9 4.7 5.6 6.8 8.2
+;
+; Decade multipliers
+;
+decades 
+-1 0 1 2 3 4 5 6 7
+;
+; Minimum value
+;
+minimum
+1.0
+;
+; Maximum value
+;
+maximum
+10e6
