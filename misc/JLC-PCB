@@ -1,13 +1,20 @@
-Silkscreen:	0.15/1mm (1:6.67 or 0.15:1) same as Kicad default
+Sucessfully manufactured Dimensions: 
+
+Silkscreen:	  0.15/1mm (1:6.67 or 0.15:1) same as Kicad default
 Font Ratio: 	1:6 (preferred), 1:4 (Kicad minimum)
 JLC-Marking:	0.15/0.8mm (1/5.33) eg. 3205923A-19Y
 Dist. to Pad:	0.15mm
+Edge Dist.:   0.2mm
 
 2-Layer:
-Traces/Spacing:	5mil (0.127mm)
-Vias:		0.3/0.5mm
+Minimum:     	5mil (0.127mm)
+Vias:		      0.3/0.5mm
+Via spacing:  0.8mm (Center-Center, min. size)
+              0.554mm (same net)
 
 4-Layer:
-Traces/Spacing:	3.5mil (0.089mm)
-Vias:		0.2/0.45mm
-BGA: 		0.5mm, 0.25mm pads flattened to 0.5-3*0.09=0.23mm
+Minimum:	    3.5mil (0.089mm)
+Vias:		      0.2/0.45mm
+Via spacing:  0.7mm (Center-Center, min. size)
+              0.454mm (same net)
+BGA: 		      0.5mm, 0.25mm pads flattened to 0.5-3*0.09=0.23mm
