@@ -26,7 +26,10 @@ Command | Function
 `run` | restart execution and run uninterrupted
 `start` | restart execution and break at main
 `continue` | continue execution until CTRL + C interrupt or breakpoint
-
+`next` | advance to next line, not stepping into function calls
+`step` | advance to next line, stepping into functions with debug symbols
+`backtrace` | print a backtrace of the entire stack
+`finish` | run until stack frame retuns and print retuned value
 
 ### Breakpoints
 
@@ -40,5 +43,18 @@ Command | Function
 `disable <n>` | disable specific breakpoint
 `enable <n>` | enable specific breakpoint
 `delete <n>` | delete specific or all breakpoint(s) 
+
+
+### Examine data
+
+Command | Function
+--- | ---
+`print <expr>` | evaluate and print the value of an expression
+`show values` | print the last ten values in the value history
+`print /f $<var>` | print convenience variable using formatte
+`/f` | x (hex), d (dez), u (unsigned), t (bin), z (padded hex)
+
+`set mem inaccessible-by-default off` to allow access to memory mapped IO
+`set confirm off` to disable confirmation messages
 
 Commands can be abbreviated to as few letters as are unambiguous. 
