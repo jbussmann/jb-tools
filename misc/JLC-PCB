@@ -17,4 +17,5 @@ Minimum:	    3.5mil (0.089mm)
 Vias:		      0.2/0.45mm
 Via spacing:  0.7mm (Center-Center, min. size)
               0.454mm (same net)
+NPTH Ring:    0.25mm
 BGA: 		      0.5mm, 0.25mm pads flattened to 0.5-3*0.09=0.23mm
