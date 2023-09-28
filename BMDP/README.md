@@ -49,10 +49,15 @@ Command | Function
 
 Command | Function
 --- | ---
+`dump [format] memory` | eg. `dump ihex memory dump.hex 0x0 0x1000`
+`info registers` | prints content of core registers
+`x/nfu addr` | examine memory eg. `x/8i $pc-4`
+`` | set value eg. `set *0x0 = 0x1234`
 `print <expr>` | evaluate and print the value of an expression
 `show values` | print the last ten values in the value history
 `print /f $<var>` | print convenience variable using formatte
 `/f` | x (hex), d (dez), u (unsigned), t (bin), z (padded hex)
+`/u` | b (Bytes), h (Halfwords), w (Words), g (Giant words)
 
 `set mem inaccessible-by-default off` to allow access to memory mapped IO
 `set confirm off` to disable confirmation messages
